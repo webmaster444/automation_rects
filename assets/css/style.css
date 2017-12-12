@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  width: 1600px;
+  max-width: 1600px;
 }
 
 path {
@@ -14,11 +14,6 @@ rect {
 	stroke-width: 6px;	
 }
 
-.end_item{
-	fill:#dbdbdb;
-	stroke: #44d13c;
-}
-
 svg{
 	width: 100%;
 	height: auto;
@@ -27,4 +22,43 @@ svg{
 text{
 	font-size: 10px;
 	text-anchor: middle;
+}
+
+#svg_wrapper{
+	width: 70%;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#button_wrapper a:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+
+}
+#button_wrapper a{		
+	color: white;	
+	display: inline-block;
+	background-color: #007bff;
+	border-color: #007bff;
+	margin-top: 10px;
+	border-radius: 5px;	
+	cursor: pointer;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	text-decoration: none;
+}
+#button_wrapper{
+	width: 30%;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.content{
+	width: 100%;
 }
