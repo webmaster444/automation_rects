@@ -1,4 +1,6 @@
 $(function(){
+    $('#imgs_wrapper').css('height',$('#imgs_wrapper img:first').css('height'));
+    
     var angle = 0;
     $('#picBtn').change(function() {
         var clicked = $(this).is(":checked");

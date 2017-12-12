@@ -29,7 +29,7 @@ text{
 	width: 100%;
 }
 #imgs_wrapper{
-	width: 40%;
+	width: 50%;
 	float: left;
 	padding:10px;
 	box-sizing: border-box;
@@ -58,8 +58,8 @@ text{
 	text-decoration: none;
 }
 #button_wrapper{
-	width: 30%;
-	float: left;
+	width: 20%;
+	float: right;
 	padding:10px;
 	box-sizing: border-box;
 }
@@ -71,4 +71,9 @@ text{
 
 .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle{
 	background-color: #a2a2a2;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
 }
