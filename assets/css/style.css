@@ -24,11 +24,16 @@ text{
 	text-anchor: middle;
 }
 
-#svg_wrapper{
+#imgs_wrapper img{
+	position: absolute;
+	width: 100%;
+}
+#imgs_wrapper{
 	width: 70%;
 	float: left;
 	padding:10px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 #button_wrapper a:hover {
