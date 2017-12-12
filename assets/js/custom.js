@@ -1,4 +1,5 @@
 $(function(){
+    var angle = 0;
     $('#picBtn').change(function() {
         var clicked = $(this).is(":checked");
         if(clicked){
@@ -51,4 +52,14 @@ $(function(){
             $('#yellow_img').css('opacity',1);
         }
     }); 
+
+    $('#rotateLeft').click(function(){
+        angle +=90;
+        $("#imgs_wrapper").rotate(angle);
+    });
+
+    $('#rotateRight').click(function(){
+        angle -=90;
+        $("#imgs_wrapper").rotate(angle);
+    });
 })
