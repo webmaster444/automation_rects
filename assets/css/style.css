@@ -29,7 +29,7 @@ text{
 	width: 100%;
 }
 #imgs_wrapper{
-	width: 70%;
+	width: 40%;
 	float: left;
 	padding:10px;
 	box-sizing: border-box;
@@ -66,6 +66,7 @@ text{
 
 .content{
 	width: 100%;
+	padding-top: 300px;
 }
 
 .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle{
